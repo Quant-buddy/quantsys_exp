@@ -1,9 +1,4 @@
 ﻿report_id,trade_date,check_name,check_status,severity,affected_rows,threshold_text,detail,should_block_plan,run_id,update_time
-week1_data_engineer_20260707_20260707T140842_001,,stock_list_exists,PASS,P0,0,,stock_count=30,False,week1_data_engineer_20260707_20260707T140842,2026-07-07T14:09:05
-week1_data_engineer_20260707_20260707T140842_002,,trade_calendar_exists,PASS,P0,0,,calendar_rows=8797,False,week1_data_engineer_20260707_20260707T140842,2026-07-07T14:09:05
-week1_data_engineer_20260707_20260707T140842_003,,daily_bar_exists,PASS,P0,0,,daily_bar_rows=25402,False,week1_data_engineer_20260707_20260707T140842,2026-07-07T14:09:05
-week1_data_engineer_20260707_20260707T140842_004,,ohlc_legal,PASS,P0,0,,high must be >= open/close/low and low must be <= open/close/high,False,week1_data_engineer_20260707_20260707T140842,2026-07-07T14:09:05
-week1_data_engineer_20260707_20260707T140842_005,,volume_amount_non_negative,PASS,P0,0,,volume and amount must be non-negative,False,week1_data_engineer_20260707_20260707T140842,2026-07-07T14:09:05
-week1_data_engineer_20260707_20260707T140842_006,,daily_bar_core_fields_not_null,PASS,P1,0,,open/high/low/close/volume/amount should be present,False,week1_data_engineer_20260707_20260707T140842,2026-07-07T14:09:05
-week1_data_engineer_20260707_20260707T140842_007,,sample_daily_bar_coverage,PASS,P1,38,,"coverage=0.9985, expected=25440, actual=25402",False,week1_data_engineer_20260707_20260707T140842,2026-07-07T14:09:05
-week1_data_engineer_20260707_20260707T140842_008,,stock_status_fields_exist,PASS,P0,0,,missing_cols=[],False,week1_data_engineer_20260707_20260707T140842,2026-07-07T14:09:05
+week1_data_engineer_20260707_20260707T210536_001,,stock_list_exists,FAIL,P0,1,,stock_count=0,True,week1_data_engineer_20260707_20260707T210536,2026-07-07T21:06:38
+week1_data_engineer_20260707_20260707T210536_002,,trade_calendar_exists,FAIL,P0,1,,calendar_rows=0,True,week1_data_engineer_20260707_20260707T210536,2026-07-07T21:06:38
+week1_data_engineer_20260707_20260707T210536_003,,daily_bar_exists,FAIL,P0,1,,daily_bar_rows=0,True,week1_data_engineer_20260707_20260707T210536,2026-07-07T21:06:38

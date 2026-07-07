@@ -1,61 +1,8 @@
 ﻿source,target,ok,detail
-akshare,stock_info_a_code_name,True,rows=5527
-akshare,tool_trade_date_hist_sina,True,rows=8797
-akshare,stock_zh_a_hist:000001,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sz000001,True,rows=847
-akshare,stock_zh_a_hist:000002,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sz000002,True,rows=847
-akshare,stock_zh_a_hist:000333,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sz000333,True,rows=847
-akshare,stock_zh_a_hist:000651,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sz000651,True,rows=847
-akshare,stock_zh_a_hist:000858,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sz000858,True,rows=847
-akshare,stock_zh_a_hist:002230,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sz002230,True,rows=847
-akshare,stock_zh_a_hist:002241,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sz002241,True,rows=847
-akshare,stock_zh_a_hist:002415,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sz002415,True,rows=847
-akshare,stock_zh_a_hist:002475,True,rows=848
-akshare,stock_zh_a_hist:002594,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sz002594,True,rows=847
-akshare,stock_zh_a_hist:300059,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sz300059,True,rows=847
-akshare,stock_zh_a_hist:300124,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sz300124,True,rows=847
-akshare,stock_zh_a_hist:300274,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sz300274,True,rows=847
-akshare,stock_zh_a_hist:300308,True,rows=848
-akshare,stock_zh_a_hist:300750,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sz300750,True,rows=847
-akshare,stock_zh_a_hist:600000,True,rows=848
-akshare,stock_zh_a_hist:600030,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sh600030,True,rows=847
-akshare,stock_zh_a_hist:600036,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sh600036,True,rows=847
-akshare,stock_zh_a_hist:600276,True,rows=848
-akshare,stock_zh_a_hist:600309,True,rows=848
-akshare,stock_zh_a_hist:600436,True,rows=848
-akshare,stock_zh_a_hist:600519,True,rows=848
-akshare,stock_zh_a_hist:601012,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sh601012,True,rows=847
-akshare,stock_zh_a_hist:601318,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sh601318,True,rows=847
-akshare,stock_zh_a_hist:601899,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sh601899,True,rows=847
-akshare,stock_zh_a_hist:688008,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sh688008,True,rows=847
-akshare,stock_zh_a_hist:688012,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sh688012,True,rows=838
-akshare,stock_zh_a_hist:688036,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sh688036,True,rows=847
-akshare,stock_zh_a_hist:688111,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sh688111,True,rows=847
-akshare,stock_zh_a_hist:688981,False,"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
-akshare,stock_zh_a_daily:sh688981,True,rows=841
-akshare,stock_zh_index_daily:sh000300,True,rows=5942
-akshare,stock_zh_index_daily:sh000905,True,rows=5221
-akshare,stock_zh_index_daily:sh000852,True,rows=2848
-akshare,stock_zh_index_daily:sh000001,True,rows=8675
-pytdx,connect:119.147.212.81:7709,False,connect returned False
+akshare,stock_info_a_code_name,False,"SSLError(MaxRetryError(""HTTPSConnectionPool(host='query.sse.com.cn', port=443): Max retries exceeded with url: /sseQuery/commonQuery.do?STOCK_TYPE=1&REG_PROVINCE=&CSRC_CODE=&STOCK_CODE=&sqlId=COMMON_SSE_CP_GPJCTPZ_GPLB_GP_L&COMPANY_STATUS=2%2C4%2C5%2C7%2C8&type=inParams&isPagination=true&pageHelp.cacheSize=1&pageHelp.beginPage=1&pageHelp.pageSize=10000&pageHelp.pageNo=1&pageHelp.endPage=1 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))""))"
+akshare,tool_trade_date_hist_sina,False,"SSLError(MaxRetryError(""HTTPSConnectionPool(host='finance.sina.com.cn', port=443): Max retries exceeded with url: /realstock/company/klc_td_sh.txt (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))""))"
+akshare,stock_zh_index_daily:sh000300,True,rows=5943
+akshare,stock_zh_index_daily:sh000905,True,rows=5222
+akshare,stock_zh_index_daily:sh000852,True,rows=2849
+akshare,stock_zh_index_daily:sh000001,True,rows=8676
+pytdx,connect:119.147.212.81:7709,False,连接返回 False

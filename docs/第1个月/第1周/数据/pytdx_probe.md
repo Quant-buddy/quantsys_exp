@@ -1,9 +1,0 @@
-# pytdx 接口探查报告
-
-运行批次：`week1_data_engineer_20260707_20260707T140842`
-
-pytdx 作为日线行情备用源探查。
-
-- connect:119.147.212.81:7709: 失败，connect returned False
-
-说明：第 1 周主链路优先使用 AKShare，pytdx 失败不阻断样例数据交付，但需要第 2 周继续补备用源。

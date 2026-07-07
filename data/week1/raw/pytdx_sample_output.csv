@@ -1,2 +1,2 @@
 ﻿source,target,ok,detail
-pytdx,connect:119.147.212.81:7709,False,connect returned False
+pytdx,connect:119.147.212.81:7709,False,连接返回 False
