@@ -1,0 +1,40 @@
+# 数据源配置模板
+# Version: v0.1
+
+environment: dev
+
+symbols:
+  primary: akshare
+  fallback: pytdx
+
+trade_calendar:
+  primary: akshare
+  fallback: local_manual
+
+daily_bar:
+  primary: akshare
+  fallback: pytdx
+  adjust: qfq
+  history_years: 3
+
+index_bar:
+  primary: akshare
+  indexes:
+    - "000300"  # 沪深300
+    - "000905"  # 中证500
+    - "000852"  # 中证1000
+    - "000001"  # 上证指数
+
+financial:
+  primary: akshare
+  require_publish_date: true
+
+industry:
+  primary: akshare
+  version: "v0.1"
+
+quality:
+  min_daily_bar_coverage: 0.99
+  max_close_diff_bp_between_sources: 1
+  block_plan_on_core_data_failure: true
+

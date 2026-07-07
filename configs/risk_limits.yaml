@@ -1,0 +1,26 @@
+# 风控配置模板
+# Version: v0.1
+
+data_quality:
+  block_order_plan_on_failure: true
+
+stock_filter:
+  exclude_st: true
+  exclude_suspended: true
+  min_listed_days: 120
+  min_amount_ma_20d: 30000000
+
+trade_restriction:
+  buy_limit_up: false
+  sell_limit_down: false
+  allow_suspended_trade: false
+  round_lot: 100
+
+portfolio_limits:
+  max_single_stock_weight: 0.02
+  max_industry_weight: 0.20
+  cash_buffer: 0.05
+  max_daily_turnover: 0.20
+
+default_action_on_error: no_trade
+

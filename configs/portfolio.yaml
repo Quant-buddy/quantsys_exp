@@ -1,0 +1,30 @@
+# 组合配置模板
+# Version: v0.1
+
+portfolio_id: mvp_topn_v0
+account_id: shadow_account
+
+rebalance:
+  frequency: weekly
+  trade_timing: next_open
+
+construction:
+  method: equal_weight_topn
+  top_n: 50
+  min_candidates: 20
+
+cash:
+  buffer: 0.05
+
+position:
+  max_single_stock_weight: 0.02
+  max_industry_weight: 0.20
+
+execution_assumption:
+  buy_price: next_open_plus_slippage
+  sell_price: next_open_minus_slippage
+  slippage_bp: 5
+  commission_bp: 3
+  min_commission: 5
+  stamp_tax_bp_sell: 5
+
