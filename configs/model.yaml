@@ -8,10 +8,8 @@ features:
   trend:
     - ret_20d
     - ret_60d
-    - ma_gap_20d
   pullback:
-    - ret_5d
-    - price_to_ma20
+    - ma_gap_20d
   risk:
     - volatility_20d
   liquidity:
@@ -31,4 +29,3 @@ labels:
 
 ml_models:
   lightgbm_enabled_month1: false
-
